@@ -93,8 +93,10 @@ document.querySelector(".generator-button").addEventListener("click", () => {
 	}
 });
 
-document.addEventListener('keypress', (e) => {
-	if (e.code.toLowerCase() === "space") {
-		document.querySelector(".generator-button").click();
-	}
-})
+// Funcionalidad para hacer que se genere la paleta apretando la barra
+//document.addEventListener('keypress', (e) => {
+//	if (e.code.toLowerCase() === "space") {
+//		document.querySelector(".generator-button").click();
+//}
+//})
+//
